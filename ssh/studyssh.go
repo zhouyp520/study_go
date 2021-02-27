@@ -47,7 +47,7 @@ func main() {
 	defer session.Close()
 
 	// 执行远程命令
-	combo, err := session.CombinedOutput("hostname;git version;")
+	combo, err := session.CombinedOutput("ip a;")
 	if err != nil {
 		log.Fatal("远程执行cmd失败", err)
 	}
