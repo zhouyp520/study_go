@@ -43,4 +43,4 @@ set GOPROXY=https://goproxy.io,direct
 
 vscode->shift+ctrl+p->go:Install/Update Tools->选择全部安装
 
-#离线安装gotools，GOPATH/bin文件打包放到离线机器相同目录
+#离线安装gotools，在线机器GOPATH/bin下文件打包放到离线机器相同目录
