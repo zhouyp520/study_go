@@ -1,0 +1,3 @@
+cd /opt
+sleep 2
+ls
